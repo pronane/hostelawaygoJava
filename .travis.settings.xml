@@ -4,7 +4,7 @@
                       http://maven.apache.org/xsd/settings-1.0.0.xsd">
   <servers>
 	<server>
-		<id>https://bintray.com/shamrocks/hostelawaygo</id>
+		<id>bintray-REPO-deploy</id>
 		<username>pronane</username>
 		<password>8204769ee087b4bc1efe3a5be704d390896f8f3d</password>
 	</server>
