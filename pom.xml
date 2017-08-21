@@ -4,7 +4,7 @@
 	<groupId>hostelawaygo</groupId>
 	<artifactId>hostelawaygo</artifactId>
 	<packaging>war</packaging>
-	<version>1.0</version>
+	<version>1.0.1</version>
 	<name>hostelawaygo</name>
 
 	<parent>
@@ -17,12 +17,12 @@
 		<snapshotRepository>
 			<id>bintray-snapshots</id>
 			<name>Bintray Snapshots</name>
-			<url>https://bintray.com/pronane/hostelawaygo/hostelawaygoJava</url>
+			<url>https://api.bintray.com/maven/pronane/hostelawaygo/hostelawaygoTest/;publish=1</url>
 		</snapshotRepository>
 		<repository>
-			<id>bintray-releases</id>
-			<name>Bintray Snapshots</name>
-			<url>https://bintray.com/pronane/hostelawaygo/hostelawaygoJava</url>
+			<id>bintray-pronane-hostelawaygo</id>
+			<name>pronane-hostelawaygo</name>
+			<url>https://api.bintray.com/maven/pronane/hostelawaygo/hostelawaygoTest/;publish=1</url>
 		</repository> 
 	</distributionManagement>
 
@@ -92,29 +92,6 @@
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>com.devexperts.bintray</groupId>
-				<artifactId>bintray-maven-plugin</artifactId>
-				<version>1.3</version>
-				<configuration>
-					<id>bintray-REPO-deploy</id>
-					<url>https://bintray.com/pronane/hostelawaygo/hostelawaygoJava</url>
-				</configuration>
-				<executions>
-					<execution>
-						<id>bintray-deploy</id>
-						<goals>
-							<goal>deploy</goal>
-							<goal>publish</goal>
-						</goals>
-					</execution> 
-				</executions>
-			</plugin>
-		</plugins>
-	</build>
 
 	<profiles>
 		<profile>
