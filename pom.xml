@@ -17,7 +17,7 @@
 		<repository>
 			<id>bintray</id>
 			<url>https://bintray.com/shamrocks/hostelawaygo</url>
-		</repository>
+		</repository> 
 	</distributionManagement>
 
 
