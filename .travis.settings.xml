@@ -6,7 +6,17 @@
 	<server>
 		<id>bintray-REPO-deploy</id>
 		<username>pronane</username>
-		<password>8204769ee087b4bc1efe3a5be704d390896f8f3d</password>
+		<password>203f418db7fd72ae9f5511ddb5487bb186a39baa</password>
+	</server>
+	<server>
+	  <id>bintray-snapshots</id>
+	  <username>pronane</username>
+		<password>203f418db7fd72ae9f5511ddb5487bb186a39baa</password>
+	</server>  
+	<server>
+		<id>bintray-releases</id>
+		<username>pronane</username>
+		<password>203f418db7fd72ae9f5511ddb5487bb186a39baa</password>
 	</server>
   </servers>
 </settings>

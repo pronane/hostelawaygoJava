@@ -14,9 +14,15 @@
 	</parent>
 
 	<distributionManagement>
+		<snapshotRepository>
+			<id>bintray-snapshots</id>
+			<name>Bintray Snapshots</name>
+			<url>https://bintray.com/pronane/hostelawaygo</url>
+		</snapshotRepository>
 		<repository>
-			<id>bintray</id>
-			<url>https://bintray.com/shamrocks/hostelawaygo</url>
+			<id>bintray-releases</id>
+			<name>Bintray Snapshots</name>
+			<url>https://bintray.com/pronane/hostelawaygo</url>
 		</repository> 
 	</distributionManagement>
 
