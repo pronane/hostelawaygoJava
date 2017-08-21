@@ -4,7 +4,7 @@
 	<groupId>hostelawaygo</groupId>
 	<artifactId>hostelawaygo</artifactId>
 	<packaging>war</packaging>
-	<version>1.0.1</version>
+	<version>1.0.0</version>
 	<name>hostelawaygo</name>
 
 	<parent>
@@ -17,12 +17,12 @@
 		<snapshotRepository>
 			<id>bintray-snapshots</id>
 			<name>Bintray Snapshots</name>
-			<url>https://api.bintray.com/maven/pronane/hostelawaygo/hostelawaygoTest/;publish=1</url>
+			<url>https://api.bintray.com/maven/pronane/hostelawaygo/hostelawaygo/;publish=1</url>
 		</snapshotRepository>
 		<repository>
 			<id>bintray-pronane-hostelawaygo</id>
 			<name>pronane-hostelawaygo</name>
-			<url>https://api.bintray.com/maven/pronane/hostelawaygo/hostelawaygoTest/;publish=1</url>
+			<url>https://api.bintray.com/maven/pronane/hostelawaygo/hostelawaygo/;publish=1</url>
 		</repository> 
 	</distributionManagement>
 
