@@ -17,12 +17,12 @@
 		<snapshotRepository>
 			<id>bintray-snapshots</id>
 			<name>Bintray Snapshots</name>
-			<url>https://bintray.com/pronane/hostelawaygo</url>
+			<url>https://bintray.com/pronane/hostelawaygo/hostelawaygoJava</url>
 		</snapshotRepository>
 		<repository>
 			<id>bintray-releases</id>
 			<name>Bintray Snapshots</name>
-			<url>https://bintray.com/pronane/hostelawaygo</url>
+			<url>https://bintray.com/pronane/hostelawaygo/hostelawaygoJava</url>
 		</repository> 
 	</distributionManagement>
 
@@ -101,7 +101,7 @@
 				<version>1.3</version>
 				<configuration>
 					<id>bintray-REPO-deploy</id>
-					<url>https://api.bintray.com/maven/SUBJECT/maven/REPO</url>
+					<url>https://bintray.com/pronane/hostelawaygo/hostelawaygoJava</url>
 				</configuration>
 				<executions>
 					<execution>
