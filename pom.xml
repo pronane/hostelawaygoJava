@@ -13,7 +13,6 @@
 		<version>1.1.1.RELEASE</version>
 	</parent>
 
-
 	<repositories>
 		<repository>
 			<id>eap</id>
@@ -78,12 +77,6 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
-		<!-- <dependency> <groupId>javax.servlet</groupId> <artifactId>javax.servlet-api</artifactId> 
-			<version>3.0.1</version> <scope>provided</scope> </dependency> https://mvnrepository.com/artifact/org.springframework/spring-web 
-			<dependency> <groupId>org.springframework</groupId> <artifactId>spring-web</artifactId> 
-			<version>4.0.0.RELEASE</version> </dependency> -->
-
-
 	</dependencies>
 
 	<build>
