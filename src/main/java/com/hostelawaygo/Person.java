@@ -1,4 +1,4 @@
-package com.concretepage;
+package com.hostelawaygo;
 
 public class Person {
 	private int id;
@@ -28,4 +28,10 @@ public class Person {
 		this.name = name;
 	}
 
+	@Override
+	public String toString() {
+		return "Person [id=" + id + ", location=" + location + ", name=" + name + "]";
+	}
+
+	
 }
