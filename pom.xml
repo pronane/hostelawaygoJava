@@ -7,12 +7,6 @@
 	<version>1.0.2</version>
 	<name>hostelawaygo</name>
 
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.1.1.RELEASE</version>
-	</parent>
-
 	<distributionManagement>
 		<snapshotRepository>
 			<id>bintray-snapshots</id>
@@ -21,7 +15,7 @@
 		</snapshotRepository>
 		<repository>
 			<id>bintray-pronane-hostelawaygo</id>
-			<name>pronane-hostelawaygo</name>
+			<name>pronane-hostelawaygo</name> 
 			<url>https://api.bintray.com/maven/pronane/hostelawaygo/hostelawaygo/;publish=1</url>
 		</repository> 
 	</distributionManagement>
@@ -60,6 +54,7 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
+			<version>LATEST</version>
 		</dependency>
 		<dependency>
 			<groupId>org.postgresql</groupId>
