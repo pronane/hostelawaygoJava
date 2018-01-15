@@ -4,7 +4,7 @@
 	<groupId>hostelawaygo</groupId>
 	<artifactId>hostelawaygo</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<name>hostelawaygo</name>
 
 	<parent>
@@ -57,10 +57,6 @@
 	</properties>
 	<dependencies>
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
