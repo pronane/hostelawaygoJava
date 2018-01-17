@@ -9,6 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.hostelawaygo.component.IPersonService;
 
+/**
+ * 
+ * @author pronane
+ *
+ * Simple Rest Service that returns person data
+ */
 @RestController
 @RequestMapping("/data")
 public class PersonController {
