@@ -4,7 +4,7 @@
 	<groupId>hostelawaygo</groupId>
 	<artifactId>hostelawaygo</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0.2</version>
+	<version>1.0.3-SNAPSHOT</version>
 	<name>hostelawaygo</name>
 
 	<distributionManagement>
